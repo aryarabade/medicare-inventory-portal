@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Admin Dashboard</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body onload="loadStock()">
+
+<nav class="navbar navbar-dark bg-primary">
+
+<div class="container-fluid">
+
+<span class="navbar-brand">💊 Medicare Store</span>
+
+<button class="btn btn-light" onclick="logout()">Logout</button>
+
+</div>
+
+</nav>
+
+
+<div class="container-fluid">
+
+<div class="row">
+
+<div class="col-md-2 sidebar">
+
+<button class="menu-btn" onclick="showAddMedicine()">Add Medicine</button>
+
+<button class="menu-btn" onclick="loadStock()">Stock</button>
+
+<button class="menu-btn" onclick="showDispense()">Dispense</button>
+
+</div>
+
+
+<div class="col-md-10 content">
+
+<h3>Dashboard</h3>
+
+<div id="content-area"></div>
+
+</div>
+
+</div>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,80 @@
+body{
+background:#f4f6f9;
+font-family:Segoe UI, sans-serif;
+margin:0;
+padding:0;
+}
+
+
+/* HERO SECTION */
+
+.hero-section{
+padding:80px 0;
+}
+
+.app-title{
+font-size:40px;
+font-weight:bold;
+color:#2c3e50;
+}
+
+.tagline{
+font-size:18px;
+margin-top:20px;
+color:#555;
+}
+
+.description{
+margin-top:15px;
+color:#666;
+}
+
+
+/* IMAGE STYLE */
+
+.hero-image{
+width:100%;
+max-width:500px;
+border-radius:10px;
+box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+
+/* FOOTER */
+
+footer{
+text-align:center;
+margin-top:80px;
+padding:15px;
+background:#f8f9fa;
+border-top:1px solid #ddd;
+}
+
+
+/* DASHBOARD */
+
+.sidebar{
+background:#2c3e50;
+height:100vh;
+color:white;
+padding:15px;
+}
+
+.menu-btn{
+width:100%;
+border:none;
+background:#34495e;
+color:white;
+padding:10px;
+margin-top:10px;
+cursor:pointer;
+border-radius:4px;
+}
+
+.menu-btn:hover{
+background:#1abc9c;
+}
+
+.content{
+padding:20px;
+}
